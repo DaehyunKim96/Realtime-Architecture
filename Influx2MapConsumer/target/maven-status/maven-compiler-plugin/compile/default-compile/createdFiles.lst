@@ -1,0 +1,12 @@
+Influx2MapConsumer/org/example/serde/JsonSerializer.class
+Influx2MapConsumer/org/example/serde/AppSerdes$ClickLogSerde.class
+Influx2MapConsumer/org/example/AppConfigs.class
+Influx2MapConsumer/org/example/serde/AppSerdes$WinLogSerde.class
+Influx2MapConsumer/org/example/influxdbMapConsumer.class
+Influx2MapConsumer/org/example/ClickConsumerPublic.class
+Influx2MapConsumer/org/example/types/WinLog.class
+Influx2MapConsumer/org/example/serde/AppSerdes.class
+Influx2MapConsumer/org/example/types/ClickLog.class
+Influx2MapConsumer/org/example/WinConsumerPublic.class
+Influx2MapConsumer/org/example/serde/JsonDeserializer.class
+Influx2MapConsumer/org/example/testConsumer.class

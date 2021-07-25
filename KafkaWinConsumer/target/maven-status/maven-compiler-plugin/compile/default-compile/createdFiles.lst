@@ -1,0 +1,11 @@
+KafkaWinConsumer/org/example/types/WinLog.class
+KafkaWinConsumer/org/example/WinConsumerPublic.class
+KafkaWinConsumer/org/example/types/ClickLog.class
+KafkaWinConsumer/org/example/serde/AppSerdes$ClickLogSerde.class
+KafkaWinConsumer/org/example/serde/JsonSerializer.class
+KafkaWinConsumer/org/example/serde/AppSerdes$WinLogSerde.class
+KafkaWinConsumer/org/example/ClickConsumerPublic.class
+KafkaWinConsumer/org/example/AppConfigs.class
+KafkaWinConsumer/org/example/serde/JsonDeserializer.class
+KafkaWinConsumer/org/example/testConsumer.class
+KafkaWinConsumer/org/example/serde/AppSerdes.class

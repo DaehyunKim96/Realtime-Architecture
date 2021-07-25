@@ -1,0 +1,15 @@
+InfluxCleanup/org/example/serde/AppSerdes$ClickLogSerde.class
+InfluxCleanup/org/example/InfluxdbCleanup.class
+InfluxCleanup/org/example/WinConsumerPublic.class
+InfluxCleanup/org/example/InfluxdbCleanup$1.class
+InfluxCleanup/org/example/ClickConsumerPublic.class
+InfluxCleanup/org/example/serde/AppSerdes$WinLogSerde.class
+InfluxCleanup/org/example/serde/JsonSerializer.class
+InfluxCleanup/org/example/AppConfigs.class
+InfluxCleanup/org/example/types/WinLog.class
+InfluxCleanup/org/example/testConsumer.class
+InfluxCleanup/org/example/serde/JsonDeserializer.class
+InfluxCleanup/org/example/influxdbMapConsumer.class
+InfluxCleanup/org/example/types/ClickLog.class
+InfluxCleanup/org/example/serde/AppSerdes.class
+InfluxCleanup/org/example/InfluxdbConsumer.class

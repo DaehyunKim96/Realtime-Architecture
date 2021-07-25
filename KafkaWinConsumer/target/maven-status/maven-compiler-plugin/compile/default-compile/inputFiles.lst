@@ -1,0 +1,9 @@
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/testConsumer.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/AppConfigs.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/ClickConsumerPublic.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/types/WinLog.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/serde/JsonDeserializer.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/types/ClickLog.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/WinConsumerPublic.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/serde/JsonSerializer.java
+/Users/kakao/Desktop/kstreams-java/KafkaWinConsumer/src/main/java/KafkaWinConsumer/org/example/serde/AppSerdes.java

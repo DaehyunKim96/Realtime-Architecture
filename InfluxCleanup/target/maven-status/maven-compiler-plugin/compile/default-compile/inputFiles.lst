@@ -1,0 +1,10 @@
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/types/WinLog.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/AppConfigs.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/types/ClickLog.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/serde/AppSerdes.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/serde/JsonDeserializer.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/serde/JsonSerializer.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/WinConsumerPublic.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/ClickConsumerPublic.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/InfluxdbConsumer.java
+/Users/kakao/Desktop/kstreams-java/InfluxConsumer/src/main/java/InfluxConsumer/org/example/testConsumer.java

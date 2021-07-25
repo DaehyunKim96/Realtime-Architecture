@@ -1,0 +1,12 @@
+InfluxConsumer/org/example/serde/AppSerdes$ClickLogSerde.class
+InfluxConsumer/org/example/ClickConsumerPublic.class
+InfluxConsumer/org/example/AppConfigs.class
+InfluxConsumer/org/example/types/WinLog.class
+InfluxConsumer/org/example/serde/JsonDeserializer.class
+InfluxConsumer/org/example/serde/AppSerdes$WinLogSerde.class
+InfluxConsumer/org/example/types/ClickLog.class
+InfluxConsumer/org/example/serde/JsonSerializer.class
+InfluxConsumer/org/example/testConsumer.class
+InfluxConsumer/org/example/serde/AppSerdes.class
+InfluxConsumer/org/example/WinConsumerPublic.class
+InfluxConsumer/org/example/InfluxdbConsumer.class
