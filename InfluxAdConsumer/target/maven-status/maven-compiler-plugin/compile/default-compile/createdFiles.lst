@@ -1,0 +1,16 @@
+InfluxAdConsumer/org/example/serde/AppSerdes$WinLogSerde.class
+InfluxAdConsumer/org/example/types/WindowAgg.class
+InfluxAdConsumer/org/example/WinConsumerPublic.class
+InfluxAdConsumer/org/example/InfluxdbConsumer.class
+InfluxAdConsumer/org/example/serde/AppSerdes$ClickLogSerde.class
+InfluxAdConsumer/org/example/AppConfigs.class
+InfluxAdConsumer/org/example/influxdbMapConsumer.class
+InfluxAdConsumer/org/example/serde/AppSerdes.class
+InfluxAdConsumer/org/example/types/WinLog.class
+InfluxAdConsumer/org/example/testConsumer.class
+InfluxAdConsumer/org/example/types/ClickLog.class
+InfluxAdConsumer/org/example/serde/JsonDeserializer.class
+InfluxAdConsumer/org/example/serde/JsonSerializer.class
+InfluxAdConsumer/org/example/InfluxdbCleanup$1.class
+InfluxAdConsumer/org/example/InfluxdbCleanup.class
+InfluxAdConsumer/org/example/ClickConsumerPublic.class

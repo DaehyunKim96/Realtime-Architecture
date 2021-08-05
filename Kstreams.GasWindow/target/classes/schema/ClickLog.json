@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "javaType": "Kstreams.GasWindow.org.example.types.ClickLog",
+  "properties": {
+    "bidId": {"type":  "string"},
+    "chargeAmount": {"type": "number"},
+    "timestamp": {"type": "string"}
+  }
+}

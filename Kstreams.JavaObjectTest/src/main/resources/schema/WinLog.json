@@ -1,0 +1,15 @@
+{
+  "type":"object",
+  "javaType": "Kstreams.JavaObjectTest.org.example.types.WinLog",
+  "properties": {
+    "bidId": {"type":  "string"},
+    "adAccountId": {"type":  "integer"},
+    "creativeId": {"type":  "integer"},
+    "gender": {"type": "string"},
+    "age": {"type": "integer"},
+    "tagId": {"type": "string"},
+    "chargeAmount": {"type": "number"},
+    "timestamp": {"type": "string"},
+    "mapped": {"type": "integer"}
+  }
+}

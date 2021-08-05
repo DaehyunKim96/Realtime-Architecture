@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "javaType": "Kstreams.AdWindow.org.example.types.GAS",
+  "properties": {
+    "gender": {"type": "string"},
+    "age": {"type": "integer"},
+    "tagId": {"type": "string"}
+  }
+}

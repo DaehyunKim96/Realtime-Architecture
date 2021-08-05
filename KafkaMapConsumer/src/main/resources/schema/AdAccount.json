@@ -1,0 +1,8 @@
+{
+  "type":"object",
+  "javaType": "KafkaMapConsumer.org.example.types.AdAccount",
+  "properties": {
+    "adAccountId": {"type":  "integer"},
+    "creativeId": {"type":  "integer"}
+  }
+}

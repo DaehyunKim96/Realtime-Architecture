@@ -1,7 +1,6 @@
 package KafkaWinConsumer.org.example.serde;
 
-import KafkaWinConsumer.org.example.types.ClickLog;
-import KafkaWinConsumer.org.example.types.WinLog;
+import KafkaWinConsumer.org.example.types.*;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 
@@ -39,5 +38,51 @@ public class AppSerdes extends Serdes {
 
         return serde;
     }
+    static final class GASSerde extends WrapperSerde<GAS> {
+        GASSerde() {
+            super(new JsonSerializer<>(), new JsonDeserializer<>());
+        }
+    }
+
+    public static Serde<GAS> GAS() {
+        GASSerde serde = new GASSerde();
+
+        Map<String, Object> serdeConfigs = new HashMap<>();
+        serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, GAS.class);
+        serde.configure(serdeConfigs, false);
+
+        return serde;
+    }
+    static final class AdAccountSerde extends WrapperSerde<AdAccount> {
+        AdAccountSerde() {
+            super(new JsonSerializer<>(), new JsonDeserializer<>());
+        }
+    }
+
+    public static Serde<AdAccount> AdAccount() {
+        AdAccountSerde serde = new AdAccountSerde();
+
+        Map<String, Object> serdeConfigs = new HashMap<>();
+        serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, AdAccount.class);
+        serde.configure(serdeConfigs, false);
+
+        return serde;
+    }
+    static final class SimpleValueSerde extends WrapperSerde<SimpleValue> {
+        SimpleValueSerde() {
+            super(new JsonSerializer<>(), new JsonDeserializer<>());
+        }
+    }
+
+    public static Serde<SimpleValue> SimpleValue() {
+        SimpleValueSerde serde = new SimpleValueSerde();
+
+        Map<String, Object> serdeConfigs = new HashMap<>();
+        serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, SimpleValue.class);
+        serde.configure(serdeConfigs, false);
+
+        return serde;
+    }
+
 }
 

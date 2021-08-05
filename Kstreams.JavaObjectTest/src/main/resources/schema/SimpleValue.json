@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "javaType": "Kstreams.JavaObjectTest.org.example.types.SimpleValue",
+  "properties": {
+    "chargeAmount": {"type": "number"},
+    "timestamp": {"type": "string"},
+    "mapped": {"type": "integer"}
+  }
+}

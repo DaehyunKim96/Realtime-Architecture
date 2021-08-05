@@ -1,0 +1,16 @@
+InfluxGasConsumer/org/example/ClickConsumerPublic.class
+InfluxGasConsumer/org/example/types/WinLog.class
+InfluxGasConsumer/org/example/InfluxdbCleanup.class
+InfluxGasConsumer/org/example/WinConsumerPublic.class
+InfluxGasConsumer/org/example/serde/AppSerdes$ClickLogSerde.class
+InfluxGasConsumer/org/example/serde/AppSerdes$WinLogSerde.class
+InfluxGasConsumer/org/example/InfluxdbConsumer.class
+InfluxGasConsumer/org/example/influxdbMapConsumer.class
+InfluxGasConsumer/org/example/serde/JsonSerializer.class
+InfluxGasConsumer/org/example/serde/JsonDeserializer.class
+InfluxGasConsumer/org/example/InfluxdbCleanup$1.class
+InfluxGasConsumer/org/example/AppConfigs.class
+InfluxGasConsumer/org/example/serde/AppSerdes.class
+InfluxGasConsumer/org/example/types/WindowAgg.class
+InfluxGasConsumer/org/example/testConsumer.class
+InfluxGasConsumer/org/example/types/ClickLog.class

@@ -1,0 +1,13 @@
+Kstreams/GasWindow/org/example/serde/AppSerdes$SimpleValueSerde.class
+Kstreams/GasWindow/org/example/serde/AppSerdes$ClickLogSerde.class
+Kstreams/GasWindow/org/example/clickLogTimeExtractor.class
+Kstreams/GasWindow/org/example/types/WinLog.class
+Kstreams/GasWindow/org/example/types/AdAccount.class
+Kstreams/GasWindow/org/example/serde/AppSerdes$WindowAggSerde.class
+Kstreams/GasWindow/org/example/serde/AppSerdes$AdAccountSerde.class
+Kstreams/GasWindow/org/example/types/WindowAgg.class
+Kstreams/GasWindow/org/example/serde/AppSerdes$WinLogSerde.class
+Kstreams/GasWindow/org/example/types/SimpleValue.class
+Kstreams/GasWindow/org/example/AppConfigs.class
+Kstreams/GasWindow/org/example/serde/AppSerdes.class
+Kstreams/GasWindow/org/example/types/ClickLog.class

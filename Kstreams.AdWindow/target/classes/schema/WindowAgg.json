@@ -1,0 +1,9 @@
+{
+  "type":"object",
+  "javaType": "Kstreams.AdWindow.org.example.types.WindowAgg",
+  "properties": {
+    "chargeAmount": {"type": "number"},
+    "win": {"type": "integer"},
+    "click": {"type": "integer"}
+  }
+}

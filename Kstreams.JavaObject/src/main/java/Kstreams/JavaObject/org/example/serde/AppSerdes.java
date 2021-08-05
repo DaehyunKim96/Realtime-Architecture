@@ -1,7 +1,6 @@
 package Kstreams.JavaObject.org.example.serde;
 
-import Kstreams.JavaObject.org.example.types.ClickLog;
-import Kstreams.JavaObject.org.example.types.WinLog;
+import Kstreams.JavaObject.org.example.types.*;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 
@@ -35,6 +34,51 @@ public class AppSerdes extends Serdes {
 
         Map<String, Object> serdeConfigs = new HashMap<>();
         serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, ClickLog.class);
+        serde.configure(serdeConfigs, false);
+
+        return serde;
+    }
+    static final class AdAccountSerde extends WrapperSerde<AdAccount> {
+        AdAccountSerde() {
+            super(new JsonSerializer<>(), new JsonDeserializer<>());
+        }
+    }
+
+    public static Serde<AdAccount> AdAccount() {
+        AdAccountSerde serde = new AdAccountSerde();
+
+        Map<String, Object> serdeConfigs = new HashMap<>();
+        serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, AdAccount.class);
+        serde.configure(serdeConfigs, false);
+
+        return serde;
+    }
+    static final class SimpleValueSerde extends WrapperSerde<SimpleValue> {
+        SimpleValueSerde() {
+            super(new JsonSerializer<>(), new JsonDeserializer<>());
+        }
+    }
+
+    public static Serde<SimpleValue> SimpleValue() {
+        SimpleValueSerde serde = new SimpleValueSerde();
+
+        Map<String, Object> serdeConfigs = new HashMap<>();
+        serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, SimpleValue.class);
+        serde.configure(serdeConfigs, false);
+
+        return serde;
+    }
+    static final class WindowAggSerde extends WrapperSerde<WindowAgg> {
+        WindowAggSerde() {
+            super(new JsonSerializer<>(), new JsonDeserializer<>());
+        }
+    }
+
+    public static Serde<WindowAgg> WindowAgg() {
+        WindowAggSerde serde = new WindowAggSerde();
+
+        Map<String, Object> serdeConfigs = new HashMap<>();
+        serdeConfigs.put(JsonDeserializer.VALUE_CLASS_NAME_CONFIG, WindowAgg.class);
         serde.configure(serdeConfigs, false);
 
         return serde;
